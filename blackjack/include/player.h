@@ -7,7 +7,7 @@
 /** \brief Defines a structure for a player.  We want the player's name, the
    cards that the player has in his or her hand, and a flag for whether
    the player is the dealer to be visible. */
-typedef struct tagPlayer
+typedef struct _tagPLAYER
 {
   char      szUserName[USERNAME_MAX + 1];	/* username of the player */
   PCARD     pHand;		                    /* array of CARDs that constitutes 
