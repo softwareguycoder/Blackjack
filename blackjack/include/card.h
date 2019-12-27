@@ -4,7 +4,7 @@
 #include "stdafx.h"
 #include "symbols.h"
 
-typedef struct tagCard {
+typedef struct _tagCARD {
     int     nValue;          /* value of the card */
     int     nSuit;           /* suit of the card */
     BOOL    bFaceDown;       /* Is this card face down? */
